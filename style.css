@@ -1,0 +1,145 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.title1 {
+  background-color: purple;
+  color: white;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+  
+}
+
+.main {
+  text-align: center;
+  padding: 20px;
+}
+
+.dashed-line {
+  border: none;
+  border-top: 4px dashed purple;
+  margin: 0px 310px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #f5f5f5;
+}
+
+.leadership-management-team {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.development-team {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.sales-and-marketing-team{
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0px 200px;
+  justify-content: center;
+}
+
+.row1 {
+  display: flex;
+  text-align: center;
+  margin: 0px 200px;
+  justify-content: center;
+}
+
+.column {
+  width: 100%;
+  padding: 0.5em 0em;
+}
+
+.card .img-container {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  padding: 0.5em;
+  margin: 0 auto 2em auto;
+}
+.card img {
+  width: 100%;
+  border-radius: 50%;
+}
+.card h3 {
+  font-weight: 600;
+}
+.card p {
+  font-weight: 300;
+  text-transform: inherit;
+  margin: 0.5em 0 2em 0;
+  letter-spacing: 2px;
+}
+.icons {
+  width: 50%;
+  min-width: 180px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.card a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4em;
+}
+.card:hover .img-container {
+  transform: scale(1.15);
+}
+@media screen and (min-width: 768px) {
+  section {
+    padding: 1em 7em;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 3em;
+  }
+  .card {
+    padding: 3em 1em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0;
+  }
+}
+
+
